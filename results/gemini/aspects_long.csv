@@ -1,0 +1,62 @@
+﻿review_id,aspect,sentiment,evidence
+r01,delivery,positive,наступного дня вже забрав у відділенні
+r01,product_quality,positive,Все працює
+r02,product_quality,negative,прийшов з подряпиною на кришці
+r02,customer_support,negative,підтримка третій день не відповідає
+r03,price,positive,Ціна найкраща в Києві
+r03,delivery,negative,доставку перенесли двічі без попередження
+r04,delivery,negative,третій тиждень чекаю посилку
+r05,customer_support,positive,Консультант у чаті допоміг підібрати монітор
+r06,delivery,neutral,Отримав замовлення
+r06,product_quality,positive,Товар відповідає опису
+r07,website_app,mixed,Застосунок вилітає під час оплати
+r08,delivery,positive,Fast delivery to Lviv
+r08,packaging,positive,phone was well packed
+r09,product_quality,positive,"Сам пилосос чудовий, тихий і потужний"
+r09,packaging,negative,Коробка приїхала м'ята
+r10,returns_warranty,negative,Повернення грошей за брак чекаю вже 20 днів
+r11,price,positive,"Ціни нижчі, ніж у конкурентів, ще й кешбек нарахували"
+r12,price,neutral,чи можна оплатити частинами карткою іншого банку
+r12,website_app,negative,Не знайшов цієї інформації на сайті
+r13,product_quality,negative,кавоварка зламалася через тиждень
+r14,returns_warranty,positive,гарантійний ремонт зроблять так швидко: за 5 днів повернули
+r15,delivery,mixed,"Доставка швидка, але кур'єр був грубий"
+r16,product_quality,negative,Замість чорного чохла надіслали рожевий
+r16,returns_warranty,negative,обміняти відмовилися
+r17,website_app,positive,"Зручний сайт, фільтри працюють нормально"
+r18,price,neutral,Ціни як у всіх
+r19,website_app,negative,The app keeps logging me out and the promo code never applies
+r20,product_quality,positive,"Навушники топ, звук чистий"
+r20,packaging,positive,"пакування таке, що можна дарувати одразу"
+r21,product_quality,positive,Телевізор хороший
+r21,customer_support,negative,"встановлення, яке я оплатив окремо, так і не провели"
+r22,website_app,negative,Після оновлення застосунку зникла історія замовлень і бонуси
+r23,customer_support,positive,Підтримка відповіла за 10 хвилин
+r23,returns_warranty,positive,одразу оформила заміну зарядки
+r25,price,negative,в кошику після оформлення стали вищими на 300 грн
+r25,website_app,negative,"Ціни на сайті одні, а в кошику після оформлення"
+r27,price,positive,нормальні ціни
+r27,website_app,negative,сайт дуже повільний увечері
+r28,delivery,negative,Кур'єр загубив посилку
+r28,customer_support,negative,магазин перекладає відповідальність на службу доставки
+r29,customer_support,positive,Customer support solved my warranty issue in one call
+r29,returns_warranty,positive,solved my warranty issue in one call
+r30,product_quality,neutral,Товар нормальний
+r30,delivery,neutral,доставка звичайна
+r31,website_app,negative,"замовлення продублювалося, а гроші списали двічі"
+r32,delivery,positive,Все прийшло вчасно
+r32,product_quality,positive,у хорошому стані
+r32,packaging,positive,ще й подарунок поклали
+r33,product_quality,positive,товар якісний
+r33,delivery,negative,чекати на доставку довелося тиждень
+r34,product_quality,negative,Монітор з битим пікселем
+r34,returns_warranty,negative,у гарантії відмовили
+r35,price,positive,"Оплата частинами без переплат, дуже зручно"
+r36,product_quality,neutral,Працює
+r37,customer_support,negative,щоразу кидали слухавку після 15 хвилин очікування
+r38,delivery,positive,Самовивіз за 15 хвилин після замовлення
+r38,customer_support,positive,персонал ввічливий
+r39,price,positive,Great price for the laptop
+r39,delivery,negative,delivery took 9 days instead of 2
+r40,price,negative,Ціна завищена порівняно з іншими магазинами
+r40,product_quality,negative,якість зарядки жахлива: гріється

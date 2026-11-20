@@ -1,0 +1,356 @@
+{
+  "generated_at": "2026-11-17T18:37:24",
+  "method": "gemini",
+  "model": "gemini-3.6-flash",
+  "reviews_total": 40,
+  "reviews_analyzed": 40,
+  "reviews_failed": 0,
+  "aborted": null,
+  "output_mode": "json_schema",
+  "notes": [],
+  "seconds": 311.01,
+  "sentiment_counts": {
+    "positive": 13,
+    "neutral": 6,
+    "negative": 14,
+    "mixed": 7
+  },
+  "avg_rating_estimate": 3.12,
+  "needs_reply": [
+    "r02",
+    "r03",
+    "r04",
+    "r07",
+    "r09",
+    "r10",
+    "r12",
+    "r13",
+    "r15",
+    "r16",
+    "r19",
+    "r21",
+    "r22",
+    "r24",
+    "r25",
+    "r27",
+    "r28",
+    "r31",
+    "r34",
+    "r37",
+    "r40"
+  ],
+  "languages": {
+    "uk": 36,
+    "en": 4
+  },
+  "aspects": {
+    "delivery": {
+      "positive": 4,
+      "neutral": 2,
+      "negative": 5,
+      "mixed": 1
+    },
+    "product_quality": {
+      "positive": 7,
+      "neutral": 2,
+      "negative": 5,
+      "mixed": 0
+    },
+    "price": {
+      "positive": 5,
+      "neutral": 2,
+      "negative": 2,
+      "mixed": 0
+    },
+    "customer_support": {
+      "positive": 4,
+      "neutral": 0,
+      "negative": 4,
+      "mixed": 0
+    },
+    "website_app": {
+      "positive": 1,
+      "neutral": 0,
+      "negative": 6,
+      "mixed": 1
+    },
+    "packaging": {
+      "positive": 3,
+      "neutral": 0,
+      "negative": 1,
+      "mixed": 0
+    },
+    "returns_warranty": {
+      "positive": 3,
+      "neutral": 0,
+      "negative": 3,
+      "mixed": 0
+    }
+  },
+  "issues_by_aspect": {
+    "delivery": [
+      "дворазове перенесення доставки без попередження",
+      "затримка доставки на три тижні",
+      "кур'єр загубив посилку",
+      "магазин перекладає відповідальність",
+      "довга доставка",
+      "затримка доставки"
+    ],
+    "product_quality": [
+      "подряпина на ноутбуці",
+      "підтримка не відповідає",
+      "кавоварка зламалася через тиждень",
+      "надіслали товар іншого кольору",
+      "відмова в обміні товару",
+      "битий піксель на моніторі",
+      "відмова у гарантійному обслуговуванні"
+    ],
+    "price": [
+      "збільшення ціни у кошику при оформленні",
+      "завищена ціна",
+      "перегрів зарядного пристрою"
+    ],
+    "customer_support": [
+      "не провели оплачене встановлення",
+      "неможливо додзвонитися на гарячу лінію",
+      "скидання дзвінків підтримкою"
+    ],
+    "website_app": [
+      "відсутність інформації про оплату на сайті",
+      "застосунок постійно розлогінює",
+      "промокод не застосовується",
+      "зникла історія замовлень і бонуси в застосунку",
+      "повільна робота сайту увечері",
+      "продубльоване замовлення",
+      "подвійне списання коштів"
+    ],
+    "packaging": [
+      "пом'ята коробка товару"
+    ],
+    "returns_warranty": [
+      "затримка повернення коштів за брак"
+    ]
+  },
+  "quality": {
+    "n": 40,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_class": {
+      "positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 13
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "mixed": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "positive": {
+        "positive": 13,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "neutral": 6,
+        "negative": 0,
+        "mixed": 0
+      },
+      "negative": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 14,
+        "mixed": 0
+      },
+      "mixed": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 7
+      }
+    },
+    "errors": []
+  },
+  "failures": {},
+  "usage": {
+    "requests": 4,
+    "prompt_tokens": 4742,
+    "output_tokens": 4365,
+    "thinking_tokens": 0,
+    "cached_tokens": 0,
+    "cost_usd_paid_tier": 0.019925,
+    "prices_checked": "2026-11-12",
+    "per_request": [
+      {
+        "reviews": 10,
+        "prompt_tokens": 1199,
+        "output_tokens": 1032,
+        "thinking_tokens": 0,
+        "seconds": 175.54
+      },
+      {
+        "reviews": 10,
+        "prompt_tokens": 1194,
+        "output_tokens": 1219,
+        "thinking_tokens": 0,
+        "seconds": 65.72
+      },
+      {
+        "reviews": 10,
+        "prompt_tokens": 1159,
+        "output_tokens": 1043,
+        "thinking_tokens": 0,
+        "seconds": 25.86
+      },
+      {
+        "reviews": 10,
+        "prompt_tokens": 1190,
+        "output_tokens": 1071,
+        "thinking_tokens": 0,
+        "seconds": 43.89
+      }
+    ]
+  },
+  "baseline_quality": {
+    "n": 40,
+    "accuracy": 0.675,
+    "macro_f1": 0.653,
+    "per_class": {
+      "positive": {
+        "precision": 0.647,
+        "recall": 0.846,
+        "f1": 0.733,
+        "support": 13
+      },
+      "neutral": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667,
+        "support": 6
+      },
+      "negative": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.667,
+        "support": 14
+      },
+      "mixed": {
+        "precision": 0.75,
+        "recall": 0.429,
+        "f1": 0.545,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "positive": {
+        "positive": 11,
+        "neutral": 2,
+        "negative": 0,
+        "mixed": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "neutral": 6,
+        "negative": 0,
+        "mixed": 0
+      },
+      "negative": {
+        "positive": 2,
+        "neutral": 4,
+        "negative": 7,
+        "mixed": 1
+      },
+      "mixed": {
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 3
+      }
+    },
+    "errors": [
+      {
+        "review_id": "r03",
+        "gold": "mixed",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r04",
+        "gold": "negative",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r07",
+        "gold": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r09",
+        "gold": "mixed",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r16",
+        "gold": "negative",
+        "predicted": "mixed"
+      },
+      {
+        "review_id": "r20",
+        "gold": "positive",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r21",
+        "gold": "mixed",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r22",
+        "gold": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r26",
+        "gold": "positive",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r28",
+        "gold": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r31",
+        "gold": "negative",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r37",
+        "gold": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r39",
+        "gold": "mixed",
+        "predicted": "positive"
+      }
+    ]
+  }
+}

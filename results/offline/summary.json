@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-11-17T16:16:48",
+  "method": "baseline",
+  "model": null,
+  "reviews_total": 40,
+  "reviews_analyzed": 40,
+  "reviews_failed": 0,
+  "aborted": null,
+  "output_mode": null,
+  "notes": [],
+  "seconds": 0.0,
+  "sentiment_counts": {
+    "positive": 17,
+    "neutral": 12,
+    "negative": 7,
+    "mixed": 4
+  },
+  "avg_rating_estimate": 3.5,
+  "needs_reply": [
+    "r02",
+    "r10",
+    "r12",
+    "r13",
+    "r15",
+    "r16",
+    "r19",
+    "r24",
+    "r25",
+    "r27",
+    "r33",
+    "r34",
+    "r40"
+  ],
+  "languages": {
+    "uk": 36,
+    "en": 4
+  },
+  "aspects": {
+    "delivery": {
+      "positive": 6,
+      "neutral": 4,
+      "negative": 0,
+      "mixed": 0
+    },
+    "product_quality": {
+      "positive": 0,
+      "neutral": 1,
+      "negative": 3,
+      "mixed": 0
+    },
+    "price": {
+      "positive": 4,
+      "neutral": 3,
+      "negative": 3,
+      "mixed": 0
+    },
+    "customer_support": {
+      "positive": 4,
+      "neutral": 1,
+      "negative": 1,
+      "mixed": 0
+    },
+    "website_app": {
+      "positive": 1,
+      "neutral": 4,
+      "negative": 2,
+      "mixed": 0
+    },
+    "packaging": {
+      "positive": 2,
+      "neutral": 1,
+      "negative": 0,
+      "mixed": 0
+    },
+    "returns_warranty": {
+      "positive": 2,
+      "neutral": 1,
+      "negative": 2,
+      "mixed": 0
+    }
+  },
+  "issues_by_aspect": {},
+  "quality": {
+    "n": 40,
+    "accuracy": 0.675,
+    "macro_f1": 0.653,
+    "per_class": {
+      "positive": {
+        "precision": 0.647,
+        "recall": 0.846,
+        "f1": 0.733,
+        "support": 13
+      },
+      "neutral": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667,
+        "support": 6
+      },
+      "negative": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.667,
+        "support": 14
+      },
+      "mixed": {
+        "precision": 0.75,
+        "recall": 0.429,
+        "f1": 0.545,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "positive": {
+        "positive": 11,
+        "neutral": 2,
+        "negative": 0,
+        "mixed": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "neutral": 6,
+        "negative": 0,
+        "mixed": 0
+      },
+      "negative": {
+        "positive": 2,
+        "neutral": 4,
+        "negative": 7,
+        "mixed": 1
+      },
+      "mixed": {
+        "positive": 4,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 3
+      }
+    },
+    "errors": [
+      {
+        "review_id": "r03",
+        "gold": "mixed",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r04",
+        "gold": "negative",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r07",
+        "gold": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r09",
+        "gold": "mixed",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r16",
+        "gold": "negative",
+        "predicted": "mixed"
+      },
+      {
+        "review_id": "r20",
+        "gold": "positive",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r21",
+        "gold": "mixed",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r22",
+        "gold": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r26",
+        "gold": "positive",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r28",
+        "gold": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r31",
+        "gold": "negative",
+        "predicted": "positive"
+      },
+      {
+        "review_id": "r37",
+        "gold": "negative",
+        "predicted": "neutral"
+      },
+      {
+        "review_id": "r39",
+        "gold": "mixed",
+        "predicted": "positive"
+      }
+    ]
+  },
+  "failures": {}
+}
